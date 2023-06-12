@@ -14,7 +14,7 @@ from django.shortcuts import render
 
 def chat_gpt(request):
    
-    api_key = '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'
+    api_key = ''
    
     # Texto para ser processado pelo modelo GPT-3.5
     prompt =  request.POST['prompt']
